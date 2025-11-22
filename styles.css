@@ -444,11 +444,13 @@ body, nav, footer, .card {
     }
 
     button.navbar-toggler {
-        position: absolute;
+        position: static;
         left: 280px;
     }
   
 }
+
+
 
 
   
