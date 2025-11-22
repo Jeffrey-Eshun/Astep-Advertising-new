@@ -4,9 +4,10 @@
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    /* font-weight: 400; */
     font-style: normal;
 }
+
+
 
 html {
   scroll-behavior: smooth;
@@ -423,7 +424,9 @@ body, nav, footer, .card {
         display: block;
         width: 100px;
         height: 50px;
-        margin-right: 150px;
+        position: absolute;
+        left: 20px;
+        bottom: 15px;
     }
   
 }
@@ -439,6 +442,13 @@ body, nav, footer, .card {
         height: 50px;
         margin-right: 200px;
     }
+
+    button.navbar-toggler {
+        position: absolute;
+        left: 280px;
+    }
   
 }
+
+
   
