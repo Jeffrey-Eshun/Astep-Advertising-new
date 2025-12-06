@@ -44,7 +44,7 @@
       </div>
 </nav>
 
-    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <!-- <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -83,7 +83,37 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+</div> -->
+    <div class="hero-slider" id="heroSlider">
+
+  <!-- Slide 1 -->
+  <div class="hero-slide active">
+    <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80" alt="">
+    <div class="hero-content">
+      <p class="hero-sub">Your Creative Partner</p>
+      <h1 class="hero-title">We Are Astep Advertising</h1>
+      <a id="img-btn" href="/portfolio.html" class="hero-btn-outline">View Our Work</a>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="hero-slide">
+    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80" alt="">
+    <div class="hero-content">
+      <h1 class="hero-title">Strategic Solutions</h1>
+      <p class="hero-text">Transforming brands through innovative advertising, creative design, and strategic marketing solutions.</p>
+      <a id="img-btn" href="/contact.html" class="hero-btn-outline">Get in Touch</a>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="hero-nav prev" onclick="changeHero(-1)">❮</div>
+  <div class="hero-nav next" onclick="changeHero(1)">❯</div>
+
 </div>
+
+
+
 
     <!-- Navbar End -->
 

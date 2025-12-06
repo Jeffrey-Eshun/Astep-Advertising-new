@@ -18,6 +18,26 @@
   });
 
 
+// Image Slider
+let currentHero = 0;
+const heroSlides = document.querySelectorAll(".hero-slide");
+
+function changeHero(direction) {
+  heroSlides[currentHero].classList.remove("active");
+
+  currentHero += direction;
+
+  if (currentHero < 0) currentHero = heroSlides.length - 1;
+  if (currentHero >= heroSlides.length) currentHero = 0;
+
+  heroSlides[currentHero].classList.add("active");
+}
+
+
+
+
+
+
 
 
 
