@@ -51,6 +51,15 @@ p{
     line-height: 1.6;
 }
 
+/* .days {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    margin-bottom: 20px;
+} */
+
 #foot-link li a {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -298,7 +307,7 @@ body, nav, footer, .card {
 
   /* Default Icon Styling */
 .socials-color a {
-    /* padding-left: 5px;  */
+    /* padding-left: 3px;  */
     margin-right: 25px;
 }
 .socials a {
