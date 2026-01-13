@@ -34,6 +34,38 @@ function changeHero(direction) {
 }
 
 
+//SLIDE
+
+  let currentSlide = 0;
+  const slides = document.querySelectorAll(".hero-slide");
+  const slideInterval = 4000; // 4 seconds
+
+  function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove("active"));
+
+    currentSlide = (index + slides.length) % slides.length;
+    slides[currentSlide].classList.add("active");
+  }
+
+  function changeHero(direction) {
+    showSlide(currentSlide + direction);
+    resetAutoSlide();
+  }
+
+  function autoSlide() {
+    showSlide(currentSlide + 1);
+  }
+
+  let autoSlideTimer = setInterval(autoSlide, slideInterval);
+
+  function resetAutoSlide() {
+    clearInterval(autoSlideTimer);
+    autoSlideTimer = setInterval(autoSlide, slideInterval);
+  }
+
+
+
+
 
 
 
